@@ -6,17 +6,18 @@ import Tabs from './Tabs.jsx';
 import { EXAMPLES } from '../data.js';
 
 export default function Examples() {
-  const [selectedTopic, setSelectedTopic] = useState();
+  // State element for control of re-rendering
+  const [selectedTopic, setSelectedTopic] = useState(); // undefined initially
 
+  // Update Component Selection State = 'components' or 'jsx' or 'props' or 'state'
   function handleSelect(selectedButton) {
-    // selectedButton => 'components', 'jsx', 'props', 'state'
     setSelectedTopic(selectedButton);
-    // console.log(selectedTopic);
   }
 
-  let tabContent = <p>Please select a topic.</p>;
+  let tabContent = <p>Please select a topic.</p>; // Default Message
 
   if (selectedTopic) {
+    // Use topic to access the topic object to render
     tabContent = (
       <div id="tab-content">
         <h3>{EXAMPLES[selectedTopic].title}</h3>
@@ -29,6 +30,7 @@ export default function Examples() {
   }
 
   return (
+    // Bottom section of page
     <Section title="Examples" id="examples">
       <Tabs
         buttons={
@@ -60,6 +62,7 @@ export default function Examples() {
           </>
         }
       >
+        {/* Description info for selected topic */}
         {tabContent}
       </Tabs>
     </Section>

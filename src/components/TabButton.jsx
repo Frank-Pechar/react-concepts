@@ -1,5 +1,5 @@
 export default function TabButton({ children, isSelected, ...props }) {
-  console.log('TABBUTTON COMPONENT EXECUTING');
+  // Individual li button for each topic
   return (
     <li>
       <button className={isSelected ? 'active' : undefined} {...props}>

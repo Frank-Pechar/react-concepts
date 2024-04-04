@@ -1,7 +1,7 @@
 export default function Tabs({ children, buttons, ButtonsContainer = 'menu' }) {
-  // const ButtonsContainer = buttonsContainer;
   return (
     <>
+      {/* buttons contains all TabButtons (one for each topic) */}
       <ButtonsContainer>{buttons}</ButtonsContainer>
       {children}
     </>

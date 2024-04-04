@@ -6,6 +6,7 @@ export default function CoreConcepts() {
     <section id="core-concepts">
       <h2>Core Concepts</h2>
       <ul>
+        {/* map conceptItem objects for - Components, JSX, Props and State into a li element for each */}
         {CORE_CONCEPTS.map((conceptItem) => (
           <CoreConcept key={conceptItem.title} {...conceptItem} />
         ))}
