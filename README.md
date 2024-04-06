@@ -18,14 +18,12 @@ Display React Concept Example
 
 ## React Features and Methods Used
 
-- Usage of Refs as element pointers
-- Usage of Refs as persistent instance variables
-- Forwarding Refs to other components
-- Implemented useImperativeHandle to allow access to child (ResultModal) function within parent (TimerChallenge) to open modal
-- Use of Portal to render modal into DOM
 - Implemented useState hook 
 - Use of state update function parameter within Set State Function to ensure most current state
-- Passing props data 
-- Maintaining minimum state management
+- Usage of props and props.children
+- Default prop values 
+- Use of list keys for unique id 
+- Setting component types dynamically
+- Fragments
 - Dynamic styling
 - Basic event handling
