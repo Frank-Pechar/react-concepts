@@ -19,7 +19,6 @@ Display React Concept Example
 ## React Features and Methods Used
 
 - Implemented useState hook 
-- Use of state update function parameter within Set State Function to ensure most current state
 - Usage of props and props.children
 - Default prop values 
 - Use of list keys for unique id 
