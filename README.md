@@ -1,28 +1,20 @@
-# Timeout Game
+# Interactive React Concepts Reference
 ## React Project
 
 ## Description of App Functionality, Features, and Methods
 
 React project I completed from Udemy: React - The Complete Guide 2023 (incl. React Router & Redux) by Maximilian Schwarzmuller. I added comments for educational purposes.
 
-App can be run from: https://frank-pechar-react-timeout-game.netlify.app/
+App can be run from: https://frank-pechar-react-concepts.netlify.app/
 
 ## App Description
 
-This App is a Timeout Guessing Game
+This App is an Interactive React Concepts Reference
 
 ## App Functionality
 
-Add Player Name
-  - Enter Name in Set Name Input Field
-  - Click &lt;Set Name&gt; Button
-
-Play a Game
-  - Click &lt;Start Challenge&gt; Button next to game time
-  - Guess timer up by waiting a specific amount of time
-  - Click &lt;Stop Challenge&gt; Button
-  - A score will be displayed
-  - Click &lt;Close&gt; Button
+Display React Concept Example
+  - Select Tab for Example: &lt;Components&gt; or &lt;JSX&gt; or &lt;Props&gt; or &lt;State&gt; Button
 
 ## React Features and Methods Used
 
