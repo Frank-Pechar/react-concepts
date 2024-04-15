@@ -3,7 +3,7 @@
 
 ## Description of App Functionality, Features, and Methods
 
-React project I completed from Udemy: React - The Complete Guide 2023 (incl. React Router & Redux) by Maximilian Schwarzmuller. I added comments for educational purposes.
+React project I completed from Udemy: React - The Complete Guide 2023 (incl. React Router & Redux) by Maximilian Schwarzmuller. I modified for enhanced formatting for responsive design and added comments for educational purposes.
 
 App can be run from: https://frank-pechar-react-concepts.netlify.app/
 
